@@ -1,0 +1,10 @@
+nav {
+padding: 0px 10px;
+font-size: 18px;
+line-height: 54px;
+font-weight: 400;
+background: transparent;
+color: #fff;
+transition: color .2s ease-in;
+text-shadow: none;
+};

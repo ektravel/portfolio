@@ -13,8 +13,8 @@ const Navbar = props => (
         <li
           className={
             window.location.pathname === "/about"
-              ? "nav-item active"
-              : "nav-item"
+              ? "nav-item pull-right active"
+              : "nav-item pull-right"
           }
         >
           <Link to="/about" className="nav-link">
@@ -24,8 +24,8 @@ const Navbar = props => (
         <li
           className={
             window.location.pathname === "/portfolio"
-              ? "nav-item active"
-              : "nav-item"
+              ? "nav-item pull-right active"
+              : "nav-item pull-right"
           }
         >
           <Link to="/portfolio" className="nav-link">
@@ -35,8 +35,8 @@ const Navbar = props => (
         <li
           className={
             window.location.pathname === "/resume"
-              ? "nav-item active"
-              : "nav-item"
+              ? "nav-item pull-right active"
+              : "nav-item pull-right"
           }
         >
           <Link to="/resume" className="nav-link">
@@ -46,8 +46,8 @@ const Navbar = props => (
         <li
           className={
             window.location.pathname === "/contact"
-              ? "nav-item active"
-              : "nav-item"
+              ? "nav-item pull-right active"
+              : "nav-item pull-right"
           }
         >
           <Link to="/contact" className="nav-link">
