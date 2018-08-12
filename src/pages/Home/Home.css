@@ -1,15 +1,30 @@
 body, html {
     height: 100%;
     font-family: Raleway, Arial, sans-serif;
+    text-align: center;
+};
+
+#homeDiv {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
 }
 
-.homeContainer { 
-     /* Full height  */
-     height: 100%;  
+#homeTitle{
+    color: white;
+    font-size: 88px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.534);
+}
 
-    /* Center and scale the image */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
+p {
+    color: white;
+    font-size:28px;
+    
+}
+
+#homeRow{
+    margin-top: 11%;
+}
 

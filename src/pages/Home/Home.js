@@ -12,9 +12,11 @@ class Home extends Component {
   render() {
     return (
     <div className="container">
-        <div className="row">
-            <div className="col-md-12" id="homeContainer">
-            This is the Home page.
+        <div className="row align-items-center" id="homeRow">
+            <div className="col-md-12 justify-content-center" id="homeDiv" >
+            <p>Web Developer</p>
+            <h1 id="homeTitle">Ekaterina Macedo</h1>
+            <p>Let's build something together.</p>
             </div>
         </div>
     </div>
