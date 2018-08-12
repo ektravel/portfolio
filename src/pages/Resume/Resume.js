@@ -5,6 +5,7 @@ class Resume extends Component {
   // When the component mounts, change the background image
   componentDidMount() {
     document.body.style.backgroundImage = "url('/images/1.png')"; 
+    document.body.style.backgroundSize = "cover";
   }
 
   render() {

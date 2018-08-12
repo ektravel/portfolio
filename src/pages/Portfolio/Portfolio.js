@@ -4,7 +4,8 @@ class Portfolio extends Component {
 
   // When the component mounts, change the background image
   componentDidMount() {
-    document.body.style.backgroundImage = "url('/images/2.png')";
+    document.body.style.backgroundImage = "url('/images/6.png')";
+    document.body.style.backgroundSize = "cover";
   }
 
   render() {

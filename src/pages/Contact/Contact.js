@@ -6,6 +6,7 @@ class Contact extends Component {
   // When the component mounts, update the background image
   componentDidMount() {
     document.body.style.backgroundImage = "url('/images/5.png')";
+    document.body.style.backgroundSize = "cover";
   }
 
   render() {

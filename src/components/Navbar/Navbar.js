@@ -4,12 +4,15 @@ import "./Navbar.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 const Navbar = props => (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
     <Link className="navbar-brand" to="/">
       Ekaterina Macedo 
     </Link>
-    <div>
-      <ul className="navbar-nav">
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+  </button>
+  <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
         <li
           className={
             window.location.pathname === "/about"
