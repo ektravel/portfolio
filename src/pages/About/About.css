@@ -1,0 +1,19 @@
+#aboutP {
+    color: black;
+    font-size:28px;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color:rgba(0, 0, 0, 0.534);
+    
+}
+
+#aboutTitle {
+    color: black;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+#aboutDiv{
+    margin-top: 7%;
+    background-color: #ffffffea;
+    opacity: 0.8;
+}

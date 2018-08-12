@@ -14,9 +14,9 @@ class Home extends Component {
     <div className="container">
         <div className="row align-items-center" id="homeRow">
             <div className="col-md-12 justify-content-center" id="homeDiv" >
-            <p>Web Developer</p>
+            <p className="homeP">Web Developer</p>
             <h1 id="homeTitle">Ekaterina Macedo</h1>
-            <p>Let's build something together.</p>
+            <p className="homeP">Let's build something together.</p>
             </div>
         </div>
     </div>
