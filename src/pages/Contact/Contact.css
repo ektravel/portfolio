@@ -1,0 +1,12 @@
+.card{
+    opacity: 0.8;
+    margin-top: 7%;
+}
+
+.card-header{
+    font-size: 24px;
+    font-weight: 550;
+    transition: color .2s ease-in;
+    text-shadow: none;
+    letter-spacing: 0px;
+}
