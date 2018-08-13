@@ -1,0 +1,17 @@
+.portfolioSlideText{
+    font-size: 14px;
+}
+
+.card.portfolio{
+    margin-top: 25px;
+    padding-top: 0;
+   
+}
+
+#lastDeck{
+    margin-bottom: 25px;
+}
+
+.card-body{
+    padding: 10px 10px 10px 10px;
+}
