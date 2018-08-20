@@ -5,8 +5,7 @@
     text-shadow: none;
     text-decoration-color: none;
 }
-a {
-    color:#fff;
+#resumeLink {
     font-size: 18px;
     line-height: 54px;
     font-weight: 550;
