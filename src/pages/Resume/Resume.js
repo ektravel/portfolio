@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom'
+import "./Resume.css";
 
 class Resume extends Component {
 
@@ -11,11 +12,14 @@ class Resume extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container" id="resumeContainer">
         <div className="row">
           <div className="col-md-12">
+          {/* if Link fails to open pdf, use a href */}
           {/* <a href="/assets/E_Macedo_Resume.pdf" target="_blank" rel="noreferrer noopener">Click here to view my resume.</a> */}
-            <Link to = "/assets/E_Macedo_Resume.pdf" target="_blank" rel="noreferrer noopener">Click here to view my resume.</Link>
+            <span class="border border-light">
+              <Link to = "/assets/E_Macedo_Resume.pdf" target="_blank" rel="noreferrer noopener">Click here to view my resume.</Link>
+            </span>
           </div>
         </div>
       </div>
