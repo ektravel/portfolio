@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom'
 
 class Resume extends Component {
 
@@ -13,7 +14,8 @@ class Resume extends Component {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-           This is the Resume page.
+          {/* <a href="/assets/E_Macedo_Resume.pdf" target="_blank" rel="noreferrer noopener">Click here to view my resume.</a> */}
+            <Link to = "/assets/E_Macedo_Resume.pdf" target="_blank" rel="noreferrer noopener">Click here to view my resume.</Link>
           </div>
         </div>
       </div>
