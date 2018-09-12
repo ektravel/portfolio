@@ -15,10 +15,10 @@ render() {
             <div className="card-deck">
                 <div className="card portfolio">
                     <div className="card-body">
-                        <a href="https://ektravel.github.io/Word-Guess-Game/" target="_blank" rel="noreferrer noopener">
+                        <a href="https://ektravel.github.io/italian-food/" target="_blank" rel="noreferrer noopener">
                         <div className="portfolioCardText">Word-Guess-Game</div> 
                         </a>
-                        <div className="portfolioSlideText">Dynamically updated HTML and CSS powered by your JavaScript code.</div>
+                        <div className="portfolioSlideText">Dynamically updated HTML and CSS powered by JavaScript and jQuery.</div>
                     </div>
                 </div>
                 <div className="card portfolio">
