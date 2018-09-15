@@ -6,7 +6,7 @@ class Home extends Component {
   // When the component mounts, update the background image
   componentDidMount() {
     document.body.style.backgroundImage = "url('/images/3.png')";
-    document.body.style.backgroundSize = "cover";
+    document.body.className = "backgroundImage";
   }
 
   render() {
