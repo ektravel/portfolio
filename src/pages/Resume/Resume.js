@@ -15,10 +15,8 @@ class Resume extends Component {
       <div className="container" id="resumeContainer">
         <div className="row">
           <div className="col-md-12">
-          {/* if Link fails to open pdf, use a href */}
-          {/* <a href="/assets/E_Macedo_Resume.pdf" target="_blank" rel="noreferrer noopener">Click here to view my resume.</a> */}
             <span className="border border-light" >
-              <Link to = "/assets/E_Macedo_Resume.pdf" target="_blank" rel="noreferrer noopener" id="resumeLink">Click here to view my resume</Link>
+              <Link to = "/assets/E_Macedo_Resume.pdf" target="_blank" rel="noreferrer noopener" id="resumeLink">Click to display resume</Link>
             </span>
           </div>
         </div>
