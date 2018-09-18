@@ -7,7 +7,7 @@ body {
 body:after{
   position:fixed;
   top:0;
-  height:100vh; 
+  height:100%; 
   left:0;
   right:0;
   z-index:-1; 
@@ -23,15 +23,8 @@ body:after{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height:100vh;
+  height:100%;
 };
 
-@media only screen and (max-width: 668px) {
-  .panel-row-style { background-attachment: scroll !important; }
-}
 
-/* @media only screen and (min-width : 320px)  {} 
-@media only screen and (min-width : 480px)  {} 
-@media only screen and (min-width : 768px)  {} 
 @media only screen and (min-width : 992px)  {background-attachment: fixed;} 
-@media only screen and (min-width : 1200px) {}  */
