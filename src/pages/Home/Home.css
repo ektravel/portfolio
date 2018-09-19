@@ -14,17 +14,12 @@ body, html {
     color: white;
     font-size: 400%;
     font-weight: bold;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color:rgba(0, 0, 0, 0.534);
 }
 
 .homeP {
     color: white;
     font-weight: bold;
     font-size:28px;
-    -webkit-text-stroke-width: 0.3px;
-    -webkit-text-stroke-color:rgba(0, 0, 0, 0.534);
-    
 }
 
 #homeRow{
